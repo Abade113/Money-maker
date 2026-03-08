@@ -18,7 +18,7 @@ Kinda easy to scale anyway
 
 
 NB:// What do you call a soon-to-be homeless man? A compSci graduate! <laughing-emoji>
-
+what do you call a bald slave? An Engineer!
 git add .
 git commit -m "Commit message"
 git push
