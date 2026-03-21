@@ -1,9 +1,25 @@
 <!Doctype html>
-<html>
+<html lang = "en">
     <head>
-        <title>Money Maker</title>
+        <meta property="og:title" content="Chemibal" />
+        <meta name="description" content="Chemibal is a webapp that balances chemical equations. It uses the algebraic method to balance equations, which involves setting up a system of linear equations based on the number of atoms of each element in the reactants and products. The app then solves the system of equations to find the coefficients that balance the equation." />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chemibal</title>
     </head>
     <body>
-        <h1>Money Maker</h1>
-        <p>Alvin is a monkey</p>
+        <main>                                              
+        <h1>Chemibal</h1>
+        <p>Welcome! to chemibal a webapp that balances chemical equations</p>
+        <input type="text" id="equation" placeholder="Enter a chemical equation" />
+        <button id="balance">Balance</button>
+        <h2>How to balance a chemical equation</h2>
+        <p>To balance a chemical equation, you need to ensure that the number of atoms of each element is the same on both sides of the equation. This can be done by adjusting the coefficients (the numbers in front of the chemical formulas) in the equation.</p>
+        <p>For example, consider the unbalanced equation:</p>
+        <p><code>H2 + O2 → H2O</code></p>
+        <p>To balance this equation, we can adjust the coefficients as follows:</p>
+        <p><code>2H2 + O2 → 2H2O</code></p>
+        <p>Now, the number of atoms of each element is the same on both sides of the equation, and the equation is balanced.</p>
+        <iframe src="https://www.youtube.com/embed/9n8sHj3qk0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </main>
     </body>
