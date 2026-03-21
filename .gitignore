@@ -1,0 +1,5 @@
+# ignores all tmp files in the git folder so they don't get carried off with Push?
+*.tmp
+#log60.txt,log61......log69.txt ignored
+log[60-69].txt
+#Just some randombullshit btw
